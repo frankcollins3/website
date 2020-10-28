@@ -1,0 +1,54 @@
+@media screen and (max-width: 800px) {
+    background-color: orange;
+}
+body {
+    background-image: url("https://ftw.usatoday.com/wp-content/uploads/sites/90/2019/02/xxx-_ws-game-7-dec569.jpg?w=1000&h=600&crop=1");
+
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+font-size: 35px;
+display: flex;
+align-self: flex-end;
+justify-content: flex-end;
+margin-top: 30px;
+margin-right: 65px;
+color: greenyellow;
+}
+.col img {
+   height: 250px;
+   width: 400px; 
+position: relative;
+top:250px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    position: relative;
+    top: -200px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: relative;
+    top: 650px;
+
+}
+h2:hover {
+    color: orange;
+    border: 10px solid orange;
+    cursor: pointer; 
+    opacity: 0.4;
+}
+h2 {
+    border:  10px solid gray;
+    padding: 20px; 
+    height: 110px;
+    padding-bottom: -20px;
+    position: relative;
+    top: -220px;
+}
