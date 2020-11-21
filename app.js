@@ -1,8 +1,6 @@
-
-const pics = document.querySelectorAll('img');
-pics.addEventListener('onmouseover', function(event) {
-    console.log(alert("WOW"));
-    img.style.background-color= "red";
-
-
-
+const foot = document.querySelector('.foot');
+console.log(foot);
+const boot = document.querySelector('.boot');
+console.log(boot);
+const briefs = document.querySelector('.briefs');
+console.log(briefs);
